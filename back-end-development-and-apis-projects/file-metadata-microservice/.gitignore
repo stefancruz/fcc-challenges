@@ -1,0 +1,6 @@
+.env
+node_modules 
+.cache
+.upm
+.config
+uploads
