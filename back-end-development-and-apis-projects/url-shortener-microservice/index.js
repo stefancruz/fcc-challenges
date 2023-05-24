@@ -20,7 +20,7 @@ app.use('/public', express.static(`${process.cwd()}/public`));
 
 app.use(bodyParser.json());
 
-app.use(bodyParser.urlencoded({ extended: true })); https://replit.com
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', function(req, res) {
   res.sendFile(process.cwd() + '/views/index.html');
